@@ -7,9 +7,15 @@
   font-size: 4rem;
   font-family: "Nevis";
   padding-bottom:25px;
+  text-shadow: 0 2px 5px #000; /* horizontal-offset vertical-offset 'blur' colour */
+  -moz-text-shadow: 0 2px 5px #000;
+  -webkit-text-shadow: 0 2px 5px #000;
 }
-.hero-image h3 {
-  font-size: 3rem;
+.hero-image h2 {
+  font-size: 2.8rem;
+  text-shadow: 0 2px 5px #000; /* horizontal-offset vertical-offset 'blur' colour */
+  -moz-text-shadow: 0 2px 5px #000;
+  -webkit-text-shadow: 0 2px 5px #000;
 }
 .script-font {
   font-family: "Milkshake";
@@ -35,10 +41,18 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .hero-holder {
   width: 100%;
   position: relative;
+}
+.hero-caption {
+  position:relative;
+  text-align:center;
+  color:white;
 }
 .navbar {
   position:sticky;
@@ -56,9 +70,6 @@
 .nav-bottom-red {
   border-bottom: 3px #EA0000 solid;
   width:100%;
-}
-.carousel-caption {
-  bottom:30%;
 }
 #logo {
   float: left;
@@ -86,6 +97,15 @@
   
   .navbar-brand img{
     display: block;
+  }
+  .hero-image h1 {
+
+    font-size: 3rem;
+    font-family: "Nevis";
+    padding-bottom:25px;
+  }
+  .hero-image h2 {
+    font-size: 2rem;
   }
 }
 .header-extras {
