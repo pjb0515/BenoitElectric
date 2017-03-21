@@ -1,0 +1,59 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/* Global Styles */
+
+@font-face {
+   font-family: 'Glyphicons Halflings';
+   src: font-url('glyphicons-halflings-regular.eot');
+   src: font-url('glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+      font-url('glyphicons-halflings-regular.woff') format('woff'),
+      font-url('glyphicons-halflings-regular.ttf') format('truetype'),
+      font-url('glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+@font-face {
+   font-family: 'Akashi';
+   src: font-url('Akashi.ttf');
+}
+@font-face {
+   font-family: 'Nevis';
+   src: font-url('nevis.ttf');
+}
+@font-face {
+   font-family: 'Milkshake';
+   src: font-url('Milkshake.ttf');
+}
+
+
+.carousel-item {
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+    .navbar-toggler {
+        z-index: 1;
+    }
+    
+    @media (max-width: 576px) {
+        nav > .container {
+            width: 100%;
+        }
+    }
+    /* Temporary fix for img-fluid sizing within the carousel */
+    
+    .carousel-item.active,
+    .carousel-item-next,
+    .carousel-item-prev {
+        display: block;
+    }

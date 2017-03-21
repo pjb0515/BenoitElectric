@@ -1,0 +1,156 @@
+// Place all the styles related to the benoit controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.hero-image h1 {
+
+  font-size: 4rem;
+  font-family: "Nevis";
+  padding-bottom:25px;
+}
+.hero-image h3 {
+  font-size: 3rem;
+}
+.script-font {
+  font-family: "Milkshake";
+}
+.sticky.is-sticky {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+.top-contact-info {
+  position:relative;
+  top:0px;
+  left:0px;
+  height:70px;
+}
+.hero-image {
+  background-image: image-url('employees_2013.jpg');
+  height: 60vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.hero-holder {
+  width: 100%;
+  position: relative;
+}
+.navbar {
+  position:sticky;
+  top: 0px;
+  z-index:9999;
+  background-color:white;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+.nav-bottom-black {
+  border-bottom: 3px black solid;
+  width:100%;
+  margin-bottom: 2px;
+}
+.nav-bottom-red {
+  border-bottom: 3px #EA0000 solid;
+  width:100%;
+}
+.carousel-caption {
+  bottom:30%;
+}
+#logo {
+  float: left;
+  font-size: 36px;
+  line-height: 100%;
+  margin: 5px 0px 0px 0px;
+}
+.navbar-brand img{
+  height:30px;
+  display: none;
+}
+@media (max-width: 991px) {
+  .header-extras {
+    display: none;
+  }
+  #logo {
+    display: block;
+    float: none;
+    margin: 5px auto!important 0px;
+    max-width: none;
+    text-align: center;
+    border: 0!important;
+    padding: 0!important;
+  }
+  
+  .navbar-brand img{
+    display: block;
+  }
+}
+.header-extras {
+  float: right;
+  margin: 15px 0 0;
+  padding: 0;
+}
+.header-extras li {
+  float: left;
+  margin-left: 20px;
+  height: 40px;
+  overflow: hidden;
+  list-style: none;
+}
+.header-extras li i {
+  margin-top: 0 !important;
+  font-size: 36px !important;
+}
+.header-extras li {
+  margin-left: 15px;
+  padding-left: 15px;
+  border-left: 1px solid #EEE;
+}
+.header-extras li:first-child {
+  margin-left: 0;
+  padding-left: 0;
+  border-left: 0;
+}
+.i-bordered, .i-circled, .i-plain, .i-rounded, .social-icon {
+  display: block;
+  float: left;
+  margin: 4px 11px 7px 0;
+  text-align: center!important;
+  font-size: 28px;
+  color: #FFF;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+  cursor: pointer;
+  font-style: normal;
+}
+.i-plain {
+  width: 36px!important;
+  height: 36px!important;
+  font-size: 28px;
+  line-height: 36px!important;
+  color: #444;
+}
+.nomargin {
+  margin: 0!important;
+}
+.header-extras li .he-text {
+  padding-left: 15px;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  float:left;
+}
+.header-extras li .he-text span {
+  display:block;
+  font-weight: 600;
+  text-transform: none;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #EA0000;
+}
