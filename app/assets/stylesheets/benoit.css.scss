@@ -20,14 +20,6 @@
 .script-font {
   font-family: "Milkshake";
 }
-.sticky.is-sticky {
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  z-index: 1000;
-  width: 100%;
-}
 .top-contact-info {
   position:relative;
   top:0px;
@@ -55,21 +47,24 @@
   color:white;
 }
 .navbar {
+  background-color:white;
+}
+.nav-holder {
   position:sticky;
   top: 0px;
   z-index:9999;
   background-color:white;
-  flex-wrap: wrap;
-  padding: 0px;
 }
 .nav-bottom-black {
   border-bottom: 3px black solid;
   width:100%;
   margin-bottom: 2px;
+  z-index:9999;
 }
 .nav-bottom-red {
   border-bottom: 3px #EA0000 solid;
   width:100%;
+  z-index:9999;
 }
 #logo {
   float: left;
