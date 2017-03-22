@@ -2,10 +2,23 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+h1 {
+  font-family: "Nevis";
+  text-transform: uppercase;
+}
+h4 {
+  font-family: "Nevis";
+}
+.section-header {
+  padding-top:30px;
+  padding-bottom:10px;
+}
+h2{
+  font-family: "Arvo";
+}
 .hero-image h1 {
 
   font-size: 4rem;
-  font-family: "Nevis";
   padding-bottom:25px;
   text-shadow: 0 2px 5px #000; /* horizontal-offset vertical-offset 'blur' colour */
   -moz-text-shadow: 0 2px 5px #000;
@@ -20,11 +33,29 @@
 .script-font {
   font-family: "Milkshake";
 }
+.card-block {
+  padding: 0px;
+}
+.card-block img {
+  width:100%;
+}
+.card-title {
+  margin-bottom: .75rem;
+  margin-top: .3rem;
+  text-align: center;
+}
+.card-text {
+  padding:10px
+}
 .top-contact-info {
   position:relative;
   top:0px;
   left:0px;
   height:70px;
+}
+.header-holder {
+  background-color:white;
+  border-bottom: 1px solid #DADADA;
 }
 .hero-image {
   background-image: image-url('employees_2013.jpg');
@@ -54,6 +85,17 @@
   top: 0px;
   z-index:9999;
   background-color:white;
+}
+
+.navbar li {
+  margin-left: 15px;
+  padding-left: 15px;
+  border-left: 1px solid #DDD;
+}
+.navbar li:first-child {
+  margin-left: 0;
+  padding-left: 0;
+  border-left: 0;
 }
 .nav-bottom-black {
   border-bottom: 3px black solid;
@@ -101,6 +143,15 @@
   }
   .hero-image h2 {
     font-size: 2rem;
+  }
+  .navbar li {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: 0;
+    border-top: 1px solid #DDD;
+  }
+  .navbar li:first-child {
+    border-top: 0px solid #DDD;
   }
 }
 .header-extras {

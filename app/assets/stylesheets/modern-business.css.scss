@@ -26,6 +26,30 @@
    font-family: 'Milkshake';
    src: font-url('Milkshake.ttf');
 }
+@font-face {
+  font-family: 'Arvo';
+  src: font-url('Arvo-Regular.ttf');
+  font-weight: regular;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Arvo';
+  src: font-url('Arvo-Italic.ttf');
+  font-weight: regular;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Arvo';
+  src: font-url('Arvo-Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Arvo';
+  src: font-url('Arvo-BoldItalic.ttf');
+  font-weight: bold;
+  font-style: italic;
+}
 
 
 .carousel-item {
