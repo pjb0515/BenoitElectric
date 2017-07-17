@@ -118,6 +118,13 @@ h2{
   height:30px;
   display: none;
 }
+.brclear {
+  clear:both;
+  height:0;
+  margin:0;
+  font-size: 1px;
+  line-height: 0;
+}
 @media (max-width: 991px) {
   .header-extras {
     display: none;
@@ -154,6 +161,13 @@ h2{
     border-top: 0px solid #DDD;
   }
 }
+.contact-us > div {
+  margin: 20px 0px;
+}
+.contact-us i {
+  margin-top: 0 !important;
+  font-size: 36px !important;
+}
 .header-extras {
   float: right;
   margin: 15px 0 0;
@@ -180,6 +194,23 @@ h2{
   padding-left: 0;
   border-left: 0;
 }
+.footer-extras {
+  margin:10px 0px 0px;
+}
+.footer-extras > div {
+  margin: 10px auto;
+}
+.footer-extras .he-text {
+  float: left;
+  margin-left: 20px;
+  height: 40px;
+  overflow: hidden;
+  list-style: none;
+}
+.footer-extras i {
+  margin-top: 0 !important;
+  font-size: 36px !important;
+}
 .i-bordered, .i-circled, .i-plain, .i-rounded, .social-icon {
   display: block;
   float: left;
@@ -198,20 +229,70 @@ h2{
   line-height: 36px!important;
   color: #444;
 }
+.footer-extras .i-plain {
+  width: 36px!important;
+  height: 36px!important;
+  font-size: 28px;
+  line-height: 36px!important;
+  color: #DDD;
+}
+.contact-us .i-plain {
+  clear:left;
+}
 .nomargin {
   margin: 0!important;
 }
+.contact-us .he-text {
+  float:left;
+  padding-left: 15px;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.contact-us .he-text span {
+  display:block;
+  font-weight: 600;
+  text-transform: none;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #EA0000;
+}
+
 .header-extras li .he-text {
   padding-left: 15px;
   font-weight: 300;
   font-size: 12px;
   line-height: 16px;
-  color: #888;
+  color: #999;
   text-transform: uppercase;
   letter-spacing: 1px;
   float:left;
 }
 .header-extras li .he-text span {
+  display:block;
+  font-weight: 600;
+  text-transform: none;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #EA0000;
+}
+
+.footer-extras .he-text {
+  padding-left: 15px;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  color: #DDD;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  float:left;
+}
+.footer-extras .he-text span {
   display:block;
   font-weight: 600;
   text-transform: none;

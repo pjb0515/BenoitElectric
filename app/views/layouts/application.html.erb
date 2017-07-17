@@ -58,19 +58,29 @@
           <div class="collapse navbar-collapse" id="navbarExample">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                  <a class="nav-link" href="services.html">Service</a>
+                <%= link_to services_path, class: "nav-link" do %>
+                  Services
+                <% end %>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="services.html">Telecom</a>
+                <%= link_to telecom_path, class: "nav-link" do %>
+                  Telecom
+                <% end %>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="/about">About</a>
+                <%= link_to about_path, class: "nav-link" do %>
+                  About
+                <% end %>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="/about">Employment</a>
+                <%= link_to career_path, class: "nav-link" do %>
+                  Career
+                <% end %>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="/contact">Contact</a>
+                <%= link_to contact_path, class: "nav-link" do %>
+                  Contact
+                <% end %>
               </li>
             </ul>
           </div>
@@ -86,11 +96,35 @@
     
 
     <!-- Footer -->
-    <footer class="py-5 bg-inverse">
-        <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; Benoit Electric 2017</p>
+    <footer class="py-3 bg-inverse">
+      <div class="container">
+          <p class="m-0 text-center text-white">Copyright &copy; Benoit Electric 2017</p>
+      </div>
+      <!-- /.container -->
+      
+      <div class="row footer-extras">
+        <div class="col-lg-4 col-md-12">
+          <i class="i-plain fa fa-phone nomargin"></i>
+          <div class="he-text">
+            Call Us
+            <span>(802) 229-1955</span>
+          </div>
         </div>
-        <!-- /.container -->
+        <div class="col-lg-4 col-md-12">
+          <i class="i-plain fa fa-envelope-o nomargin"></i>
+          <div class="he-text">
+            Email Us
+            <span>Pam@BenoitElectric.com</span>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <i class="i-plain fa fa-map-marker nomargin"></i>
+          <div class="he-text">
+            Our Address
+            <span>245 Industrial Lane, Barre VT</span>
+          </div>
+        </div>
+      </div>
     </footer>
 </body>
 </html>
