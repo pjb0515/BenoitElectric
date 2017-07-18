@@ -8,7 +8,7 @@ class BenoitController < ApplicationController
   
   end
   
-  def services
+  def service
   
   end
   

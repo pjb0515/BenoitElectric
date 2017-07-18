@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   
   get '/' => 'benoit#index', as: :index_benoit
   get '/contact' => 'benoit#contact', as: :contact
-  get '/services' => 'benoit#services', as: :services
+  get '/service' => 'benoit#service', as: :service
   get '/telecom' => 'benoit#telecom', as: :telecom
   get '/career' => 'benoit#career', as: :career
   get '/about' => 'benoit#about', as: :about
